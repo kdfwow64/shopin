@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="1796px" viewBox="0 0 1280 1796" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bg / line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop_Main_UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -362.000000)" opacity="0.5">
+        <g id="bg" transform="translate(-666.000000, 363.000000)" stroke="#D6DFEC" stroke-width="2">
+            <g id="bg-/-line" transform="translate(466.000000, 0.000000)">
+                <path d="M198,1499 C317.081664,1487.03686 627.70654,1436.01815 908.664069,1144.23366 C1323.13291,713.760858 1343.05406,101.93721 1345,0" id="Stroke-1" opacity="0.302649457"></path>
+                <path d="M65,1673.16906 C159.733213,1707.84718 678.111511,1885.38231 1202.07884,1529.05066 C1827.73681,1103.54298 1925.56954,281.21916 1935,191" id="Stroke-3" opacity="0.302649457" transform="translate(1000.000000, 969.500000) rotate(-5.000000) translate(-1000.000000, -969.500000) "></path>
+                <path d="M1704,129 C1530.58869,1086.3271 851.621148,1703.96459 195,1630.01461" id="Stroke-5" opacity="0.302649457"></path>
+            </g>
+        </g>
+    </g>
+</svg>

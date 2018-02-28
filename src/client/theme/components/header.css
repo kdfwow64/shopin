@@ -1,0 +1,384 @@
+@import "../colors";
+
+html .header-wrapper .site {
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+html .header-wrapper .site > * {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper{
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-shrink: 0;
+    height:80px;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+/*    background-image: linear-gradient(to bottom, #008aff, #baabff);*/
+}
+
+.header-wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper ul li {
+    list-style: none;
+    display: inline;
+    margin-right:25px;
+    font-family:  Montserrat !important;
+    font-size:15px;
+}
+.header-wrapper ul li:last-child {
+    margin-right: 0;
+}
+
+.header-wrapper ul li a{
+    color:white !important;
+
+}
+.header-wrapper ul li a.active {
+    position: relative;
+}
+.header-wrapper ul li a.active:after {
+    content: "";
+    background: #fff;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    left: 0;
+    border-radius: 3px;
+}
+/*.brand {*/
+    /*margin-top:15px;*/
+    /*margin-bottom:10px;*/
+/*}*/
+/*.menu-nav{*/
+    /*margin-top:15px;*/
+/*}*/
+.brand img{
+    vertical-align: middle;
+}
+.header-wrapper span{
+    font-size:30px;
+    color:white;
+    line-height: 1;
+    vertical-align: middle;
+}
+/*.navigate-svg-wrapper{*/
+    /*margin-top: 15px;*/
+    /*margin-right:20px;*/
+/*}*/
+
+/*.svg-content{*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*font-size: 13px;*/
+/*}*/
+
+.navigate-button{
+  display:inline-block;
+  border-radius: 5px;
+  border: solid 1px rgba(254, 254, 254, 0.4);
+  float:right;
+  cursor:pointer;
+  position: relative;
+  overflow: hidden;
+}
+.navigate-button:before {
+    content: "";
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.22));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.4s ease-out;
+}
+.navigate-button:hover:before {
+    opacity: 0;
+    transition-duration: 0.125s;
+  }
+.navigate-button div{
+  height: 30px;
+  padding: 9px 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    z-index: 10;
+}
+
+.navigate-button div:before {
+    content: 'Join Now';
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+
+.svg-content:nth-child(2) {
+    margin-right:40px;
+}
+.svg-image{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:10px;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+.shpn-app-header .footer-bottom {
+    display: none;
+    border-top: none;
+}
+
+.shpn-app-header .footer-bottom + .footer-bottom{
+    border-top: 1px solid #fff;
+}
+
+.shpn-app-header .footer-bottom.open{
+    display: flex;
+    justify-content: center;
+    bottom: 35px;
+    position: fixed;
+}
+
+.shpn-app-header .footer-bottom.open  .footer-img-wrapper{
+    position: relative;
+    bottom: 50px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .menu-list {
+        background: linear-gradient(to bottom, #008aff, #baabff 70%);
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: -1080px;
+        height: calc(100vh - 100px);
+        margin: 0;
+        padding: 0;
+        -webkit-transition: ease all 0.3s;
+        -moz-transition: ease all 0.3s;
+        -ms-transition: ease all 0.3s;
+        -o-transition: ease all 0.3s;
+        transition: ease all 0.3s;
+    }
+
+    .header-wrapper ul li {
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        line-height: 3.33;
+    }
+
+    .menu-list.open {
+        top: 100px;
+    }
+
+    .responsive-menu {
+        background: url("/static/assets/images/graphics/menu.svg") right center no-repeat;
+        display: inline-block;
+        float: right;
+        height: 50px;
+        margin-left: 20px;
+        width: 40px;
+        background-size: 70%;
+    }
+
+    .shpn-app-header.stuck .header-wrapper .responsive-menu {
+        background: url("/static/assets/images/graphics/menu-blue.svg") right center no-repeat;
+        background-size: 70%;
+    }
+
+    .responsive-menu.open {
+        background: url("/static/assets/images/graphics/close.svg") center no-repeat;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    .footer-bottom {
+        position: fixed;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+    }
+}
+
+.shpn-app-shell {
+    padding-top: 100px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    html .header-wrapper .site {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .header-wrapper ul li {
+        margin-right: 0;
+    }
+
+    .shpn-app-header .footer-bottom.open .footer-img-wrapper {
+        display: none;
+    }
+}
+
+.header-wrapper,
+.shpn-app-header.stuck .header-wrapper ul li a{
+    transition: all 0.35s ease-out;
+}
+
+@media screen and (min-width: 720px) {
+    .menu-nav {
+        padding-left: 105px;
+    }
+    .shpn-app-header.stuck .header-wrapper{
+        background: var(--bgLightest);
+    }
+    .shpn-app-header.stuck .brand img {
+        display: block !important;
+    }
+    .shpn-app-header.stuck .brand img:nth-child(2) {
+        display: none !important;
+    }
+    .shpn-app-header.stuck .header-wrapper ul li a {
+        color: var(--textDark) !important;
+    }
+    .shpn-app-header.stuck .header-wrapper ul li a:hover,
+    .shpn-app-header.stuck .header-wrapper ul li a.active {
+        color: var(--primaryColor) !important;
+        transition-duration: 0.3s;
+    }
+    .shpn-app-header.stuck .header-wrapper ul li a.active:after {
+        background-color: var(--primaryColor) !important;
+    }
+    .shpn-app-header.stuck .navigate-svg-wrapper img {
+        border-radius: 50%;
+        border: 1px solid #C2CEE1;
+    }
+    .shpn-app-header.stuck .navigate-button:hover {
+        border-color: #008aff; 
+    }
+    .shpn-app-header.stuck .navigate-button:hover div:before {
+        color: #008aff; 
+    }
+    .shpn-app-header.stuck  .navigate-button:before {
+        background: #008aff; 
+    }    
+}
+@media screen and (max-width: 540px) {
+    .brand {
+        margin-top: 0;
+    }
+
+    .header-wrapper {
+        height: 50px;
+    }
+
+    .shpn-app-shell  {
+        padding-top: 50px;
+    }
+
+    html .header-wrapper .site {
+        max-width: 100%;
+    }
+
+    .header-wrapper span {
+        font-size: 24px;
+    }
+
+    .shpn-app-header .footer-bottom {
+        border: none;
+    }
+
+    .shpn-app-header .footer-bottom .copyright {
+        text-align: center;
+    }
+
+    .navigate-svg-wrapper .svg-content {
+        display: none;
+    }
+
+    .navigate-button div {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 2.31;
+        margin: 0;
+        padding: 0 16px;
+        width: auto;
+    }
+
+    .navigate-button div:before {
+        content: 'Join';
+    }
+
+    /*.responsive-menu {*/
+        /*height: 34px;*/
+        /*margin-left: 20px;*/
+        /*width: 30px;*/
+        /*background-size: 140%;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: center;*/
+    /*}*/
+
+    .shpn-app-header.stuck .header-wrapper .responsive-menu {
+        background: url("/static/assets/images/graphics/menu.svg") right center no-repeat;
+        background-size: 70%;
+    }
+
+    .menu-list.open {
+        top: 70px;
+    }
+
+    .menu-list {
+        height: calc(100vh - 70px);
+    }
+
+    .header-wrapper ul li {
+        margin-right: 0;
+    }
+
+    .shpn-app-header .footer-bottom.open .footer-img-wrapper .svg-content {
+        margin: 0;
+    }
+    .shpn-app-header .footer-bottom.open .footer-img-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-height: 375px) {
+    .menu-list {
+        overflow: auto;
+    }
+
+    .header-wrapper ul li {
+        font-size: 15px;
+        line-height: 1.3;
+        margin-right: 0;
+    }
+}

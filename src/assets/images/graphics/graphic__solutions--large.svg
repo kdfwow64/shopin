@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="971" height="940" viewBox="0 0 971 940">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#D8E2FF"/>
+            <stop offset="100%" stop-color="#7FA1FF"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="54.451%" y2="100%">
+            <stop offset="0%" stop-color="#008AFF"/>
+            <stop offset="100%" stop-color="#F0F4FF"/>
+        </linearGradient>
+        <linearGradient id="c" x1="52.938%" x2="52.938%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#008AFF"/>
+        </linearGradient>
+        <filter id="d" width="158.7%" height="180.5%" x="-29.4%" y="-40.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="22.813"/>
+        </filter>
+        <filter id="e" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="f" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="g" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="h" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="i" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="j" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="k" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="l" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="m" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="n" width="268.8%" height="268.8%" x="-84.4%" y="-84.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.406"/>
+        </filter>
+        <filter id="o" width="155.7%" height="176.4%" x="-27.8%" y="-38.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5.469"/>
+        </filter>
+        <rect id="p" width="60" height="60" rx="30"/>
+        <circle id="s" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="q" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="r" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="t" width="60" height="60" rx="30"/>
+        <radialGradient id="u" cx="0%" cy="64.711%" r="73.568%" fx="0%" fy="64.711%" gradientTransform="matrix(.9798 -.19996 .37406 1.83284 -.242 -.539)">
+            <stop offset="0%" stop-color="#A8CEFF"/>
+            <stop offset="100%" stop-color="#A8A8FF"/>
+        </radialGradient>
+        <circle id="x" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="v" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="w" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="y" width="60" height="60" rx="30"/>
+        <circle id="B" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="z" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="A" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="C" width="60" height="60" rx="30"/>
+        <circle id="F" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="D" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="E" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="G" width="60" height="60" rx="30"/>
+        <circle id="J" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="H" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="I" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="K" width="60" height="60" rx="30"/>
+        <circle id="N" cx="30.5" cy="42.5" r="17.5"/>
+        <filter id="L" width="370.3%" height="370.3%" x="-126.6%" y="-115.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12.433"/>
+        </filter>
+        <filter id="M" width="418.9%" height="418.9%" x="-150.9%" y="-139.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.745098039 0 0 0 0 0.803585225 0 0 0 0 1 0 0 0 0.687669837 0"/>
+        </filter>
+        <rect id="O" width="60" height="60" rx="30"/>
+        <filter id="P" width="155.7%" height="176.4%" x="-27.8%" y="-38.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5.469"/>
+        </filter>
+        <rect id="Q" width="60" height="60" rx="30"/>
+        <filter id="R" width="155.7%" height="176.4%" x="-27.8%" y="-38.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5.469"/>
+        </filter>
+        <rect id="S" width="60" height="60" rx="30"/>
+        <filter id="T" width="155.7%" height="176.4%" x="-27.8%" y="-38.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5.469"/>
+        </filter>
+        <rect id="U" width="60" height="60" rx="30"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EFF8FF" stroke="url(#a)" d="M824 412C824 184.459 639.541 0 412 0S0 184.459 0 412" transform="translate(78 40)"/>
+        <path stroke="url(#b)" d="M824 823c0-227.541-184.459-412-412-412S0 595.459 0 823" transform="matrix(1 0 0 -1 78 1274)"/>
+        <path fill="#EFF8FF" stroke="url(#a)" d="M731 411c0-176.179-142.821-319-319-319S93 234.821 93 411" opacity=".5" transform="translate(78 40)"/>
+        <path fill="#EFF8FF" stroke="url(#a)" d="M639 412c0-125.369-101.631-227-227-227S185 286.631 185 412" opacity=".2" transform="translate(78 40)"/>
+        <path stroke="url(#b)" d="M731 730c0-176.179-142.821-319-319-319S93 553.821 93 730" opacity=".5" transform="matrix(1 0 0 -1 78 1181)"/>
+        <path stroke="url(#b)" d="M639 639c0-125.369-101.631-227-227-227S185 513.631 185 639" opacity=".2" transform="matrix(1 0 0 -1 78 1091)"/>
+        <g>
+            <path stroke="url(#c)" stroke-linecap="square" d="M0 550.5L389.5 400" transform="translate(98 51)"/>
+            <path stroke="url(#c)" stroke-linecap="square" d="M384 550.5L773.5 400" transform="matrix(-1 0 0 1 1255.5 51)"/>
+            <path stroke="url(#c)" stroke-linecap="square" d="M222 770l169.5-370.5" transform="translate(98 51)"/>
+            <path stroke="url(#c)" stroke-linecap="square" d="M411 770l169.5-370.5" transform="matrix(-1 0 0 1 1089.5 51)"/>
+            <path fill="#FFF" stroke="#7DA0FF" d="M490 451.188l396.183-119.613M490 451.188L102.489 334.644" opacity=".204"/>
+            <path stroke="#7DA0FF" stroke-linecap="square" d="M490 450.645l301.743-286.296M490 451.242L598.992 51.25M490.5 445.5L382.287 53.745" opacity=".204"/>
+            <path fill="#FFF" stroke="#7DA0FF" d="M490.5 445.5L192.99 161.643" opacity=".204"/>
+        </g>
+        <g transform="translate(350 311)">
+            <ellipse cx="140.5" cy="175" fill="#4496FF" filter="url(#d)" opacity=".4" rx="116.5" ry="85"/>
+            <circle cx="140" cy="140" r="140" fill="#FFF"/>
+            <path fill="#008AFF" d="M170.6 138.421c-6.536-2.19-13.967-2.325-20.79-1.86-5.728.437-12.39 1.371-12.938 1.44-2.865.363-4.28-2.49-2.075-4.78 2.061-2.137 7.222-3.552 12.307-.806-1.597-2.192-4.348-3.71-7.347-3.95-4.975-.42-10.387 2.585-11.392 7.29-.05.24-.09.489-.115.747l-.004-.005c-2.198-9.353 15.061-16.596 24.94-6.386-2.594-4.687-8.22-8.006-14.756-7.84-7.57.245-15.514 5.632-15.595 12.733a7.967 7.967 0 0 1-.073-.156c-3.371-12.168 22.791-24.314 36.346-6.953-3.223-6.48-10.729-11.615-19.837-11.718-11.299-.108-22.066 8.006-21.809 17.245-.005-.02-.013-.04-.022-.059-4.953-15.364 30.508-32.222 47.505-7.655-3.995-8.364-13.189-15.134-24.878-15.583-13.11-.393-27.86 8.816-27.973 20.9-4.44-19.162 38.93-38.242 58.65-7.489-3.941-8.43-11.9-15.464-22.395-18.286-18.183-4.814-37.109 5.745-40.931 19.168 2.3-22.796 47.763-36.908 69.052-3.067-4.835-10.475-14.355-18.566-26.123-21.833-16.46-4.5-34.329 1.473-43.872 13.767l-.206.265c11.973-22.13 55.104-28.867 76.001 5.626-6.699-14.636-21.377-25.81-39.99-27.102-24.976-1.412-46.074 17.74-46.279 33.505-.052 4.023 1.845 12.83 13.378 16.713 6.536 2.19 13.966 2.326 20.79 1.86 5.733-.438 12.378-1.37 12.937-1.44 2.866-.363 4.446 2.66 2.075 4.778-2.385 2.133-7.222 3.553-12.307.808 1.598 2.193 4.35 3.71 7.348 3.949 4.976.42 10.386-2.584 11.392-7.29.049-.238.09-.487.115-.746l.004.006c2.198 9.353-15.062 16.594-24.938 6.384 2.591 4.687 8.218 8.008 14.753 7.84 7.57-.244 15.516-5.632 15.596-12.731.026.05.049.103.072.156 3.373 12.167-22.79 24.314-36.344 6.953 3.221 6.48 10.727 11.613 19.837 11.717 11.297.108 22.064-8.005 21.807-17.244l.022.058c4.955 15.364-30.508 32.222-47.505 7.656 3.995 8.364 13.19 15.133 24.878 15.583 13.11.39 27.861-8.817 27.975-20.9 4.438 19.161-38.933 38.24-58.652 7.488 3.942 8.43 11.9 15.464 22.396 18.286 18.182 4.814 37.11-5.745 40.932-19.167-2.303 22.795-47.763 36.908-69.055 3.065 4.837 10.475 14.356 18.568 26.124 21.834 16.46 4.5 34.33-1.473 43.872-13.768l.207-.265c-11.972 22.131-55.106 28.868-76.002-5.625 6.7 14.635 21.378 25.81 39.989 27.103 24.978 1.411 46.075-17.74 46.28-33.505.052-4.024-1.843-12.83-13.378-16.714"/>
+        </g>
+        <g opacity=".7">
+            <g transform="translate(182 356)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#e)"/>
+            </g>
+            <g transform="translate(327 289)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#f)"/>
+            </g>
+            <g transform="translate(404 140)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#g)"/>
+            </g>
+            <g transform="translate(547 230)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#h)"/>
+            </g>
+            <g transform="translate(719 228)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#i)"/>
+            </g>
+            <g transform="translate(705 383)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#j)"/>
+            </g>
+        </g>
+        <g opacity=".7">
+            <g transform="matrix(1 0 0 -1 190 568)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#k)"/>
+            </g>
+            <g transform="matrix(1 0 0 -1 392 661)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#l)"/>
+            </g>
+            <g transform="matrix(1 0 0 -1 636 736)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#m)"/>
+            </g>
+            <g transform="matrix(1 0 0 -1 699 539)">
+                <circle cx="2.5" cy="2.5" r="1.5" fill="#7D9FFE"/>
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#85ABFF" filter="url(#n)"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(47 572)">
+                <ellipse cx="57.282" cy="36.941" fill="#4496FF" filter="url(#o)" opacity=".64" rx="29.456" ry="21.485"/>
+                <g transform="translate(27)">
+                    <use fill="#FFF" xlink:href="#p"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#008AFF" rx="29.5"/>
+                </g>
+                <path fill="#008AFF" fill-rule="nonzero" d="M43.17 42.923l1.749-22.727a1 1 0 0 1 .997-.923h4.677v-1.455a5.818 5.818 0 0 1 11.636 0v1.455h4.677a1 1 0 0 1 .997.923l1.749 22.727A1 1 0 0 1 68.655 44H44.167a1 1 0 0 1-.997-1.077zm16.15-25.105a2.908 2.908 0 1 0-5.818 0v1.455h5.818v-1.455zm5.818 4.364H62.23v4.363a1.455 1.455 0 0 1-2.909 0v-4.363h-5.818v4.363a1.455 1.455 0 0 1-2.91 0v-4.363h-2.908L46.229 41.09h20.364l-1.455-18.91z"/>
+                <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14">
+                    <tspan x="4.463" y="85">Data on previous </tspan> <tspan x="24.643" y="110">purchases</tspan>
+                </text>
+            </g>
+            <g transform="translate(163 131)">
+                <g filter="url(#q)">
+                    <use fill="#000" filter="url(#r)" xlink:href="#s"/>
+                    <use fill="#A8A8FF" xlink:href="#s"/>
+                </g>
+                <g transform="rotate(90 30 30)">
+                    <use fill="#FFF" xlink:href="#t"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                </g>
+                <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                <path fill="#FFF" fill-rule="nonzero" stroke="#FFF" stroke-width=".8" d="M34.721 38.146h6.253A1.04 1.04 0 0 0 42 37.095V17.052C42 16.47 41.54 16 40.974 16H19.026A1.042 1.042 0 0 0 18 17.054v20.043c0 .58.46 1.051 1.026 1.052h6.25l3.812 7.28c.382.761 1.443.761 1.825 0l3.808-7.283zm-14.668-20.04h19.894v17.939h-6.002c-.384 0-.736.22-.912.57l-.626 1.248a1.08 1.08 0 0 0-.134.267L30 42.651l-3.033-6.036a1.024 1.024 0 0 0-.913-.57h-6.001v-17.94zM34.953 23a1.014 1.014 0 0 0-.696.307l-5.274 5.27-2.24-2.238a1.014 1.014 0 0 0-.728-.307c-.91.001-1.358 1.106-.706 1.74l2.92 2.917c.196.204.47.317.753.31.285.008.559-.105.756-.31l5.952-5.95c.664-.643.188-1.766-.736-1.739z"/>
+            </g>
+            <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(135 131)">
+                <tspan x="1.582" y="85">Recommendation </tspan> <tspan x="36.397" y="110">engine</tspan>
+            </text>
+            <g transform="translate(763 131)">
+                <g filter="url(#v)">
+                    <use fill="#000" filter="url(#w)" xlink:href="#x"/>
+                    <use fill="#A8A8FF" xlink:href="#x"/>
+                </g>
+                <g transform="rotate(90 30 30)">
+                    <use fill="#FFF" xlink:href="#y"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                </g>
+                <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M23.81 25.743c-2.357-2.072-5.964-1.944-8.162.288a5.679 5.679 0 0 0 0 8.001c2.198 2.232 5.805 2.36 8.162.288.057.05.12.097.185.137l6.207 3.755c-.53 2.874 1.218 5.682 4.069 6.536 2.85.853 5.903-.518 7.102-3.192 1.2-2.674.168-5.804-2.4-7.285-2.57-1.482-5.864-.845-7.667 1.48l-5.881-3.545-.068-.031a5.593 5.593 0 0 0 0-4.264l.068-.036 5.88-3.546c1.814 2.359 5.142 3.015 7.745 1.527 2.604-1.488 3.658-4.65 2.454-7.357-1.204-2.707-4.285-4.103-7.17-3.249-2.885.855-4.66 3.69-4.132 6.597L23.995 25.6c-.066.042-.128.09-.185.142zm12.174 10.381c1.749 0 3.167 1.39 3.167 3.103 0 1.713-1.418 3.102-3.167 3.102-1.75 0-3.167-1.389-3.167-3.102 0-.823.334-1.612.928-2.194a3.2 3.2 0 0 1 2.239-.909zm0-18.39c1.749 0 3.167 1.389 3.167 3.102 0 1.714-1.418 3.103-3.167 3.103-1.75 0-3.167-1.39-3.167-3.103.002-1.712 1.42-3.098 3.167-3.098v-.004zM19.896 33.136c-1.749 0-3.167-1.389-3.167-3.102 0-1.714 1.418-3.103 3.167-3.103 1.75 0 3.167 1.39 3.167 3.103 0 1.713-1.418 3.102-3.167 3.102z"/>
+            </g>
+            <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(735 131)">
+                <tspan x="23.707" y="85">Share your</tspan> <tspan x="37.85" y="110">profile</tspan>
+            </text>
+            <g transform="translate(573 21)">
+                <g filter="url(#z)">
+                    <use fill="#000" filter="url(#A)" xlink:href="#B"/>
+                    <use fill="#A8A8FF" xlink:href="#B"/>
+                </g>
+                <g transform="rotate(90 30 30)">
+                    <use fill="#FFF" xlink:href="#C"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                </g>
+                <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                <path fill="#FFF" d="M13 25.278v9.9a4.28 4.28 0 0 0 4.288 4.28h25.424A4.285 4.285 0 0 0 47 35.177v-9.9A4.28 4.28 0 0 0 42.712 21H17.288A4.285 4.285 0 0 0 13 25.278zm2.914.053c0-.782.64-1.417 1.428-1.417h25.316c.79 0 1.428.632 1.428 1.417v9.795c0 .782-.64 1.417-1.428 1.417H17.342a1.42 1.42 0 0 1-1.428-1.417v-9.795zm12.163 4.898l-1.079-1.079a1.36 1.36 0 0 1 1.924-1.923L30 28.305l1.078-1.078a1.36 1.36 0 0 1 1.924 1.923l-1.079 1.079 1.079 1.078a1.36 1.36 0 0 1-1.924 1.923L30 32.152l-1.078 1.078a1.36 1.36 0 0 1-1.924-1.923l1.079-1.078z"/>
+            </g>
+            <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(545 21)">
+                <tspan x="10.342" y="85">No more forms</tspan>
+            </text>
+            <g transform="translate(355 21)">
+                <g filter="url(#D)">
+                    <use fill="#000" filter="url(#E)" xlink:href="#F"/>
+                    <use fill="#A8A8FF" xlink:href="#F"/>
+                </g>
+                <g transform="rotate(90 30 30)">
+                    <use fill="#FFF" xlink:href="#G"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                </g>
+                <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                <path fill-rule="nonzero" stroke="#FFF" stroke-width="3" d="M43.906 25.776a2.02 2.02 0 0 0-1.629-1.344L35.03 23.43l-3.208-6.323A2.042 2.042 0 0 0 29.994 16c-.777 0-1.487.43-1.829 1.106l-3.208 6.323-7.207 1.003a2.02 2.02 0 0 0-1.65 1.345c-.24.717-.04 1.505.519 2.03l5.227 4.924-1.245 6.962a1.95 1.95 0 0 0 .81 1.924c.625.44 1.453.5 2.137.154l6.442-3.303 6.44 3.303c.687.352 1.52.294 2.149-.149a1.949 1.949 0 0 0 .808-1.937l-1.246-6.962 5.228-4.924c.562-.52.77-1.304.537-2.023z"/>
+            </g>
+            <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(327 21)">
+                <tspan x="6.333" y="85">A single wishlist</tspan>
+            </text>
+            <g transform="translate(855 301)">
+                <g filter="url(#H)">
+                    <use fill="#000" filter="url(#I)" xlink:href="#J"/>
+                    <use fill="#A8A8FF" xlink:href="#J"/>
+                </g>
+                <g transform="rotate(90 30 30)">
+                    <use fill="#FFF" xlink:href="#K"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                </g>
+                <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                <path fill="#FFF" fill-rule="nonzero" stroke="#FFF" stroke-width=".6" d="M30 47c9.444 0 17-7.66 17-17s-7.556-17-17-17c-9.444 0-17 7.556-17 17 0 9.444 7.556 17 17 17zm0-31.377c7.975 0 14.377 6.507 14.377 14.377 0 7.87-6.402 14.377-14.377 14.377A14.332 14.332 0 0 1 15.623 30 14.332 14.332 0 0 1 30 15.623zm-1.157 20.769v2.37c0 .723.618 1.238 1.237 1.238.618 0 1.236-.619 1.236-1.237v-2.371c1.237-.206 2.37-.825 3.298-1.753a1.307 1.307 0 0 0 0-1.855 1.306 1.306 0 0 0-1.855 0c-.722.721-1.752 1.134-2.782 1.134-2.061 0-3.504-1.65-3.504-3.918 0-2.268 1.443-3.918 3.504-3.918 1.03 0 2.06.413 2.782 1.134.515.516 1.34.516 1.855 0a1.307 1.307 0 0 0 0-1.855c-.928-.928-2.061-1.547-3.298-1.753v-2.37c0-.723-.618-1.238-1.236-1.238-.619 0-1.237.619-1.237 1.34v2.371C26.061 24.33 24 26.804 24 30c0 3.299 2.06 5.876 4.843 6.392z"/>
+            </g>
+            <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(819 301)">
+                <tspan x="3.583" y="85">Shopin token wallet</tspan>
+            </text>
+            <g>
+                <g transform="translate(65 301)">
+                    <g filter="url(#L)">
+                        <use fill="#000" filter="url(#M)" xlink:href="#N"/>
+                        <use fill="#A8A8FF" xlink:href="#N"/>
+                    </g>
+                    <g transform="rotate(90 30 30)">
+                        <use fill="#FFF" xlink:href="#O"/>
+                        <rect width="59" height="59" x=".5" y=".5" stroke="#7DA0FF" rx="29.5"/>
+                    </g>
+                    <rect width="50" height="50" x="5" y="5" fill="url(#u)" rx="25" transform="rotate(90 30 30)"/>
+                    <g fill="#FFF" fill-rule="nonzero" transform="translate(12 13)">
+                        <path d="M29.712 10.69a1.223 1.223 0 0 0-.965-.466h-.358V7.269c0-.726-.561-1.314-1.253-1.314h-1.88V4.313c0-.725-.56-1.313-1.252-1.313h-9.397c-.692 0-1.253.588-1.253 1.313v5.91h-1.567c-.169 0-.33.025-.476.088l-.929-4.004c-.136-.589-.64-1.008-1.217-1.008h-.002l-4.912.008C3.56 5.307 3 5.897 3 6.623c0 .725.562 1.302 1.253 1.302h.002l3.925.002L11.908 24c.137.59.64 1.001 1.218 1.001h.002l13.436-.016c.602-.001 1.118-.447 1.23-1.067l2.184-12.15a1.352 1.352 0 0 0-.266-1.078zm-3.829-.466h-3.445V8.582h3.445v1.642zM15.86 5.627h6.89v.328h-1.565c-.692 0-1.253.588-1.253 1.314v2.955H15.86V5.627zm9.664 16.733l-11.414.017-2.212-9.535 15.074-.009c.054.008.108.018.164.018.034 0 .066-.008.098-.01l-1.71 9.519z"/>
+                        <circle cx="24.5" cy="29.5" r="2.5"/>
+                        <circle cx="15.5" cy="29.5" r="2.5"/>
+                    </g>
+                </g>
+                <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(29 301)">
+                    <tspan x="20.793" y="85">Fast checkout</tspan>
+                </text>
+            </g>
+            <g>
+                <g transform="translate(845 572)">
+                    <ellipse cx="30.456" cy="38.485" fill="#4496FF" filter="url(#P)" opacity=".64" rx="29.456" ry="21.485"/>
+                    <use fill="#FFF" xlink:href="#Q"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#008AFF" rx="29.5"/>
+                    <g fill="#008AFF" fill-rule="nonzero">
+                        <path d="M30.037 47.074c9.465 0 17.037-7.678 17.037-17.037 0-9.36-7.572-17.037-17.037-17.037A16.966 16.966 0 0 0 13 30.037a16.966 16.966 0 0 0 17.037 17.037zm0-31.445c7.992 0 14.407 6.52 14.407 14.408 0 7.887-6.415 14.407-14.407 14.407a14.363 14.363 0 0 1-14.408-14.407 14.363 14.363 0 0 1 14.408-14.408zm.948 23.106h-2c-.595 0-1.059-.48-1.059-1.098V28.51c0-.618.464-1.098 1.06-1.098h2c.595 0 1.058.48 1.058 1.098v9.127c0 .618-.463 1.098-1.059 1.098zm0-14.411h-2a1.045 1.045 0 0 1-1.059-1.06v-2c0-.595.464-1.058 1.06-1.058h2c.595 0 1.058.463 1.058 1.059v2c0 .595-.463 1.059-1.059 1.059z"/>
+                    </g>
+                </g>
+                <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(819 572)">
+                    <tspan x="8.473" y="85">Reconnect with </tspan> <tspan x="23.867" y="110">customers</tspan>
+                </text>
+            </g>
+            <g>
+                <g transform="translate(647 784)">
+                    <ellipse cx="30.456" cy="38.485" fill="#4496FF" filter="url(#R)" opacity=".64" rx="29.456" ry="21.485"/>
+                    <use fill="#FFF" xlink:href="#S"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#008AFF" rx="29.5"/>
+                    <g fill="#008AFF" fill-rule="nonzero" stroke="#008AFF" stroke-width=".3">
+                        <path d="M25.993 13.758a11.006 11.006 0 0 0-6.966 9.443c-.177 2.53.52 5.045 1.973 7.123a15.065 15.065 0 0 1 2.728 7.164c.086.82.577 1.541 1.308 1.921v4.247A3.344 3.344 0 0 0 28.381 47h3.267a3.344 3.344 0 0 0 3.345-3.344V39.39a2.493 2.493 0 0 0 1.3-1.857 15.48 15.48 0 0 1 2.732-7.253 11 11 0 0 0-1.516-14.328 11.005 11.005 0 0 0-11.516-2.194zm6.773 29.898c0 .616-.499 1.115-1.114 1.115h-3.267c-.616 0-1.115-.5-1.115-1.115v-.401h5.496v.4zm0-1.906H27.27v-2.088h5.496v2.088zm4.46-12.737a17.729 17.729 0 0 0-3.133 8.211c0 .09-.078.22-.208.22H31.12V27.306h1.58a1.115 1.115 0 1 0 0-2.23h-5.39a1.115 1.115 0 1 0 0 2.23h1.58v10.125h-2.768a.2.2 0 0 1-.171-.174 17.283 17.283 0 0 0-3.118-8.205 8.868 8.868 0 0 1-1.58-5.7 8.755 8.755 0 0 1 8.76-8.122 8.77 8.77 0 0 1 7.195 13.782h.018z"/>
+                    </g>
+                </g>
+                <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(620 784)">
+                    <tspan x="8.456" y="85">Personalization </tspan> <tspan x="31.363" y="110">IQ game</tspan>
+                </text>
+            </g>
+            <g>
+                <g transform="translate(290 784)">
+                    <ellipse cx="30.456" cy="38.485" fill="#4496FF" filter="url(#T)" opacity=".64" rx="29.456" ry="21.485"/>
+                    <use fill="#FFF" xlink:href="#U"/>
+                    <rect width="59" height="59" x=".5" y=".5" stroke="#008AFF" rx="29.5"/>
+                    <g stroke="#008AFF" stroke-width="3">
+                        <path d="M30.956 15.918l12.436 21.5a1 1 0 0 1-.861 1.5l-26.166.1a1 1 0 0 1-.848-1.536l13.73-21.6a1 1 0 0 1 1.709.036z"/>
+                    </g>
+                </g>
+                <text fill="#424242" font-family="Roboto-Regular, Roboto" font-size="14" transform="translate(263 784)">
+                    <tspan x="27.617" y="85">SKU-level </tspan> <tspan x="20.856" y="110">information</tspan>
+                </text>
+            </g>
+        </g>
+        <path fill="#7DA0FF" d="M630 451h500v1H630zM-150 451h500v1h-500z" opacity=".2"/>
+    </g>
+</svg>

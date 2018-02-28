@@ -1,0 +1,107 @@
+:root {
+    --primaryColor: #008aff;
+    --secondaryColor: #baabff;
+
+    --bgLightest: #fff;
+    --bgLighter: #F4F4F4;
+    --bgDark: #E8ECED;
+
+    --textPrimaryLight: #fff;
+    --textPrimaryDark: #404040;
+    --textSecondaryDark: #455154;
+    --textLight: #838383;
+    --textLighter: #9A9A9A;
+    --textDark: #424242;
+    --textDarker: #7C7C7C;
+
+    --textBlueDark: #455154;
+
+    --textSize0: 12px;
+    --textSize1: 15px;
+    --textSize2: 17px;
+    --textSize3: 21px;
+    --textSize4: 24px;
+    --textSize5: 28px;
+
+    --primaryError: #d01b1b;
+
+    /* 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
+    --paper-spinner-container-rotation-duration: 1568ms;
+    /* ARCTIME */
+    --paper-spinner-expand-contract-duration: 1333ms;
+    /* 4 * ARCTIME */
+    --paper-spinner-full-cycle-duration: 5332ms;
+    /* SHRINK_TIME */
+    --paper-spinner-cooldown-duration: 400ms;
+
+    --paper-spinner-color: green;
+    --paper-spinner-layer-1-color: red;
+    --paper-spinner-layer-2-color: red;
+    --paper-spinner-layer-3-color: red;
+    --paper-spinner-layer-4-color: red;
+}
+
+body {
+    background: var(--bgLightest);
+}
+
+.theme-dark {
+    color: var(--primaryColor);
+}
+
+.theme-light {
+    color: var(--textPrimaryDark);
+    background-color: var(--bgLightest);
+}
+
+.bg__primary {
+    color: var(--primaryColor);
+    background-color: var(--bgLightest);
+}
+
+.theme-primary {
+    color: var(--bgLightest) !important;
+    background-color: var(--primaryColor) !important;
+}
+
+.bg-lightest {
+/*    background-color: var(--bgLightest);*/
+}
+
+.bg-dark {
+    background: var(--bgDark);
+}
+
+.theme-light {
+    color: var(--textPrimaryDark);
+    background-color: var(--bgLightest);
+}
+
+.theme-lighter {
+    color: #B6B6B6;
+    background-color: var(--bgLighter);
+}
+
+.bg__lighter--hover:hover {
+    background-color: var(--bgLighter) !important;
+}
+
+.border__primary-1 {
+    border: 1px solid var(--primaryColor);
+}
+
+.border__primary-2 {
+    border: 2px solid var(--primaryColor);
+}
+
+.border__primary-3 {
+    border: 3px solid var(--primaryColor);
+}
+
+.border-b__primary-1 {
+    border-bottom: 1px solid var(--primaryColor);
+}
+
+.border-b__light-1 {
+    border-bottom: 1px solid #EAEAEA;
+}

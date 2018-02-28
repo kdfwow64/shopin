@@ -1,0 +1,160 @@
+@import '../colors';
+html .app-footer .site {
+    width: 100%;
+    max-width: 1160px;
+}
+.app-footer {
+    padding-top: 340px;
+    width: 100%;
+    height: 534px;
+    overflow: hidden;
+}
+
+.app-footer .footer-wrapper {
+    /*background: var(--primaryColor);*/
+    background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor) 50%);
+    background-image: url("/static/assets/images/photos/cloud.png"), linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor) 50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom -40px center;
+    height: 440px;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    border-radius: 50% 50% 0 0;
+    transform: scale(1.2);
+    margin-top: 50px;
+}
+
+.footer-content {
+    transform: scale(.8334);
+    height: 380px;
+    display: flex;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--bgLightest);
+    align-self: flex-end;
+    color:  var(--textPrimaryLight);
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.footer-bottom > div {
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+}
+
+.copyright img {
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+
+.social {
+    text-align: right;
+    margin-left: auto;
+}
+
+.social a {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.btn {
+    background-color: #008aff;
+    border-radius: 5px;
+    color: var(--textPrimaryLight) !important;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    -webkit-appearance: none;
+}
+
+.btn-block {
+    width: 100%;
+}
+form .btn-block{
+  cursor:pointer;
+}
+
+@media screen and (min-width: 1025px) {
+    .app-footer .footer-wrapper {
+        background: var(--primaryColor);
+        background: url("/static/assets/images/photos/cloud.png") bottom -230px center no-repeat, linear-gradient(to bottom, #008aff, #baabff 50%);
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-bottom {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    html .grid.xs-three-col {
+        grid-gap: 30px;
+        grid-template-columns: 30px 30px 30px;
+        margin-bottom: 20px;
+    }
+
+    .width-x-100 {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app-footer {
+        height: auto;
+        overflow: initial;
+    }
+    .app-footer  > * {
+        background: linear-gradient(to bottom, #008aff, #baabff 50%);
+    }
+    .app-footer .footer-wrapper {
+        background-image: url("/static/assets/images/photos/cloud.png");
+        height: auto;
+        border-radius: 0;
+        /*background: transparent;*/
+        background-position: center 120% !important;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        transform: scale(1, 1);
+    }
+
+    .footer-content {
+        height: auto;
+        transform: scale(1, 1);
+    }
+
+    .social,
+    .copyright {
+        width: 100%;
+    }
+
+    .copyright {
+        order: 2;
+    }
+
+    .social {
+        order: 1;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .footer-bottom {
+        max-width: 90%;
+        margin: 0 auto;
+        position: relative;
+        border: none;
+        bottom: 25px;
+    }
+
+}

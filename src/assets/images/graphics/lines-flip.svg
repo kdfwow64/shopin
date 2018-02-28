@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="1150px" viewBox="0 0 1280 1150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bg / line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop_Main_UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -8507.000000)" opacity="0.5">
+        <g id="bg" transform="translate(-666.000000, 363.000000)" stroke="#D6DFEC" stroke-width="2">
+            <g id="bg-/-line" transform="translate(1293.090867, 8672.443304) scale(-1, 1) rotate(23.000000) translate(-1293.090867, -8672.443304) translate(524.090867, 7816.943304)">
+                <path d="M0.648821006,1499.56466 C119.730485,1487.60152 430.355361,1436.58281 711.31289,1144.79832 C1125.78173,714.325518 1145.70288,102.50187 1147.64882,0.564660258" id="Stroke-1" opacity="0.302932518"></path>
+                <path d="M1537.90731,203.205049 C1364.496,1160.53215 685.528459,1778.16964 28.9073113,1704.21966" id="Stroke-5" opacity="0.302932518"></path>
+            </g>
+        </g>
+    </g>
+</svg>

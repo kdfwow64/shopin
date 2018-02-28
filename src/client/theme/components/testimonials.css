@@ -1,0 +1,142 @@
+.testimonial{
+	background-color: #f2f9ff;
+	padding: 130px 0 100px;
+    background: url("/static/assets/images/graphics/light-blue-bg.png") bottom center no-repeat;
+    background-size: cover;
+    margin: 0 0 100px;
+}
+#testimonial {
+  position: relative;
+  overflow: hidden;
+}
+#testimonial {
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+}
+
+.testimonial .shpn-content-section__main{
+	padding-top: 60px;
+}
+
+.testimonial .shpn-content-section header{
+	padding: 0;
+}
+.testimonial .shpn-content-section header p{
+	padding: 0;
+}
+.testimonial .video-card{
+	width: 350px;
+    /*height: 290px;*/
+	  border-radius: 10px;
+	  background-color: #ffffff;
+	  color: #424242;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.testimonial .video-card img{
+    /*height: 200px;*/
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.testimonial .video-card p{
+	font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+  padding-left: 40px;
+  padding-top: 15px;
+  margin: 0;
+}
+.testimonial .video-card div{
+font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  padding-left: 40px;
+  padding-top: 2px;
+    padding-bottom: 25px;
+}
+
+.testimonial .showall{
+	margin-top: 60px;
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #008aff !important;
+}
+
+.testimonial .mapview img{
+	width: 100%;
+}
+.testimonial .mapview .map-text{
+  width: 540px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.7px;
+  text-align: center;
+      margin: 58px auto 0;
+}
+
+.testimonial .mapview .map-btn{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.testimonial .mapview .map-btn .join-btn{
+  width: 130px;
+height: 50px;
+border-radius: 5px;
+background-color: #008aff;
+font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  border: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+    .testimonial{
+        padding: 55px 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-bottom: 10px;
+    }
+
+    .testimonial .video-card{
+    width: 280px;
+        margin: 0 auto;
+      box-shadow: none;
+        margin: 0 auto;
+  }
+  .testimonial .mapview .map-text{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+    .presale-form-wrapper p {
+        color: #424242;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 300;
+        line-height: 1.79;
+    }
+
+    .testimonial .mapview .map-text {
+        font-size: 16px;
+        line-height: 1.56;
+    }
+}

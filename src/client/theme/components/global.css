@@ -1,0 +1,87 @@
+/* Global Clases */
+:root {
+    --gridGap: 24px;
+    --gridGap2: 100px;
+    --gridGap3: 74px;
+}
+
+.pl-80{
+    padding-left: 80px;
+}
+
+.pr-80{
+    padding-right: 80px;
+}
+
+.pl-5{
+    padding-left: 5px;
+}
+
+.w-50per{
+    width: 50% !important;
+}
+
+.v-line{
+    position: relative;
+    bottom: 18px;
+    color: #d6dfec;
+    padding: 0 15px;
+}
+
+.float-r{
+    float: right !important;
+}
+.float-l{
+    float: left !important;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.center{
+  text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    html .grid.two-col {
+        grid-gap: var(--gridGap);
+    }
+}
+
+.map-text{
+  width: 540px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.7px;
+  text-align: center;
+      margin: 0 auto;
+}
+
+.map-btn{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.map-btn .join-btn{
+  width: 130px;
+height: 50px;
+border-radius: 5px;
+background-color: #008aff;
+font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  border: none;
+  color: #fff;
+}

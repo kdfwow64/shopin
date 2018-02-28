@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="#FFF" fill-rule="evenodd">
+        <text font-family="Montserrat-Regular, Montserrat" font-size="17.5" transform="translate(-38)">
+            <tspan x=".223" y="55.5">Presale open</tspan>
+        </text>
+        <path d="M19.5 31c-6.213 0-11.25-5.037-11.25-11.25S13.287 8.5 19.5 8.5s11.25 5.037 11.25 11.25S25.713 31 19.5 31zm0-20.625a9.375 9.375 0 1 0 0 18.75 9.375 9.375 0 0 0 0-18.75zm2.09 12.844l-2.746-2.756a.945.945 0 0 1-.282-.725v-4.675a.937.937 0 1 1 1.875 0v4.247l2.532 2.532a.974.974 0 0 1-1.378 1.377z"/>
+    </g>
+</svg>

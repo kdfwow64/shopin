@@ -1,0 +1,115 @@
+@import "./colors";
+
+body {
+    color: var(--textPrimaryDark);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--textSize1);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+.text-primary {
+    color: var(--primaryColor) !important;
+}
+
+.text-secondary-dark {
+    color: var(--textSecondaryDark);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-default {
+}
+
+.text-light {
+    color: var(--textLight) !important;
+}
+
+.text-lighter {
+    color: var(--textLighter) !important;
+}
+
+.text-dark {
+    color: var(--textDark);
+}
+
+.text-darker {
+    color: var(--textDarker);
+}
+
+.text-sz-0 {
+    font-size: var(--textSize0);
+}
+
+.text-sz-1 {
+    font-size: var(--textSize1);
+}
+
+.text-sz-2 {
+    font-size: var(--textSize2);
+}
+
+html .text-sz-3 {
+    font-size: var(--textSize3);
+}
+
+html .text-sz-4 {
+    font-size: var(--textSize4);
+}
+
+.text-sz-5 {
+    font-size: var(--textSize5);
+}
+
+.text-sz-6 {
+    font-size: 36px;
+}
+
+.text-sz-7 {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-sz-6 {
+        font-size: var(--textSize5);
+    }
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-uppercase,
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}

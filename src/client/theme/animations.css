@@ -1,0 +1,59 @@
+.invisible {
+ opacity: 0;
+}
+
+@keyframes reveal-fade-in {
+ 0% {
+  opacity: 0;
+ }
+ 
+ 100% {
+  opacity: 1;
+ }
+}
+
+.reveal-fade-in {
+ animation-name: reveal-fade-in;
+ animation-duration: 0.8s;
+}
+
+@keyframes reveal-slight-left {
+ 0% {
+  transform: translate3d(-24px, 0, 0);
+  opacity: 0;
+ }
+ 
+ 100% {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+ }
+}
+
+.reveal-slight-left {
+ animation-name: reveal-slight-left;
+ animation-duration: 0.8s;
+}
+
+
+
+@keyframes reveal-pop-in {
+ 0% {
+  transform: scale3d(0.5, 0.5, 1);
+  opacity: 0;
+ }
+
+ 60% {
+  transform: scale3d(1.05, 1.05, 1);
+  opacity: 1;
+ }
+ 
+ 100% {
+  transform: scale3d(1, 1, 1);
+
+ }
+}
+
+.reveal-pop-in {
+ animation-name: reveal-pop-in;
+ animation-duration: 0.8s;
+}

@@ -1,0 +1,19 @@
+{
+ "short_name": "void-react",
+ "name": "V0ID_REACT",
+ "start_url": "/",
+ "display": "standalone",
+ "theme_color": "#85ff00",
+ "background_color": "#85ff00",
+ "icons": [{
+  "src": "static/assets/images/manifest/icon-192x192.png",
+  "sizes": "192x192",
+  "type": "image/png"
+ }, {
+  "src": "static/assets/images/manifest/icon-512x512.png",
+  "sizes": "512x512",
+  "type": "image/png"
+ }],
+ "gcm_sender_id": "482941778795",
+ "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}

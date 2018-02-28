@@ -1,0 +1,404 @@
+:root {
+ --blockIncrement: 4px;
+}
+
+html .site,
+html .d-site {
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+html .site.compact {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 768px){
+    html .d-site {
+        padding: 0 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    html .site,
+    .sec {
+       width: 100%;
+       /*padding: 0 18px;*/
+       box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    html .site,
+    .sec {
+        padding: 0 18px;
+    }
+    
+    html .site.shopn-header-container {
+        padding-top: 50px;
+    }
+}
+
+html .site.thinner {
+ max-width: 850px;
+}
+html .fit-width {
+ width: 100%;
+}
+
+html .layout.horizontal,
+html .layout.horizontal-reverse,
+html .layout.vertical,
+html .layout.vertical-reverse {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+html .layout.inline {
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+html .layout.horizontal {
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+html .layout.horizontal-reverse {
+  -ms-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+html .layout.vertical {
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+html .layout.vertical-reverse {
+  -ms-flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+html .layout.wrap {
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+html .layout.wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+html .flex-auto {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+html .flex-none {
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+}
+html .flex,
+html .flex-1 {
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+html .flex-2 {
+  -ms-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+html .flex-3 {
+  -ms-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+html .flex-4 {
+  -ms-flex: 4;
+  -webkit-flex: 4;
+  flex: 4;
+}
+/* alignment in cross axis */
+html .layout.start {
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+html .layout.center,
+html .collapse.center,
+html .layout.center-center {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+html .layout.end {
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+html .layout.end-justified {
+ justify-content: flex-end;
+}
+html .layout.justified {
+  justify-content: space-between;
+}
+html .block {
+  display: block;
+}
+/* ie 10 support for html5 hidden attr */
+html [hidden] {
+  display: none !important;
+}
+html .invisible {
+  visibility: hidden !important;
+}
+html .relative {
+  position: relative;
+}
+html .absolute {
+   position: absolute
+}
+html .fit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+body.fullbleed {
+  margin: 0;
+  height: 100vh;
+}
+html .scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+html .scroll-x {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+html .scroll-y {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+html .sticky {
+/*
+  -webkit-position: sticky;
+ position: sticky;
+ */
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+}
+html .fixed {
+ position: fixed !important;
+}
+html .viewport {
+ overflow-y: scroll;
+ overflow-x: hidden;
+ -webkit-overflow-scrolling: touch;
+}
+html .layer {
+ position: relative;
+ z-index: 10;
+}
+html .collapse,
+html .collapse-reverse {
+ display: flex;
+ flex-direction: row;
+}
+html .collapse-row,
+html .collapse-row-reverse {
+ display: flex;
+ flex-direction: column;
+}
+html .container-dark {
+ color: #fff;
+ background-color: #161e55;
+}
+html .container-light {
+ background-color: #F2F2FC;
+}
+html .alternate-rows {
+}
+html .alternate-rows > .row {
+ display: flex;
+ flex-direction: row-reverse;
+}
+html .alternate-rows > .row:nth-child(2n) {
+ flex-direction: row;
+ text-align: right;
+}
+html .fixed-bottom-right {
+ text-align: right;
+ position: sticky;
+ bottom: 0;
+}
+html .z-1 {
+ z-index: 10;
+}
+html .z-2 {
+ z-index: 100;
+}
+html .z-3 {
+ z-index: 1000;
+}
+html .z-4 {
+ z-index: 10000;
+}
+html .z-5 {
+ z-index: 100000;
+}
+
+html .fit-width {
+ width: 100%;
+}
+html .fit-height {
+ height: 100%;
+}
+
+
+html .client-width {
+ width: 100vw;
+}
+html .client-height {
+ height: 100vh;
+}
+
+html .top-100 {
+ top: 100%;
+}
+html .right-0 {
+ right: 0;
+}
+html .left-0 {
+ left: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+ html .collapse {
+  flex-direction: column;
+ }
+ html .collapse-reverse {
+  flex-direction: column-reverse;
+ }
+ html .collapse-row {
+  flex-direction: row;
+ }
+ html .collapse-row-reverse {
+  flex-direction: row-reverse;
+ }
+}
+
+@for $i from 0 to 100 {
+ html .width-$i { width: calc($i * var(--blockIncrement)); }
+ html .max-width-$i { width: calc($i * var(--blockIncrement)); }
+ html .height-$i { height: calc($i * var(--blockIncrement)); }
+ html .max-height-$i { max-height: calc($i * var(--blockIncrement)); }
+ html .pad-$i,
+ html .pad__t-$i { padding-top: calc($i * var(--blockIncrement)); }
+ html .pad-$i,
+ html .pad__r-$i { padding-right: calc($i * var(--blockIncrement)); }
+ html .pad-$i,
+ html .pad__b-$i { padding-bottom: calc($i * var(--blockIncrement)); }
+ html .pad-$i,
+ html .pad__l-$i { padding-left: calc($i * var(--blockIncrement)); }
+ html .mar-$i,
+ html .mar__t-$i { margin-top: calc($i * var(--blockIncrement)); }
+ html .mar-$i,
+ html .mar__r-$i { margin-right: calc($i * var(--blockIncrement)); }
+ html .mar-$i,
+ html .mar__b-$i { margin-bottom: calc($i * var(--blockIncrement)); }
+ html .mar-$i,
+ html .mar__l-$i { margin-left: calc($i * var(--blockIncrement)); }
+}
+@for $i from 0 to 100 by 5 {
+ .width-p-$i { width: $i% }
+}
+
+@for $i from 0 to 100 by 10 {
+ .height-vh-$i { min-height: calc($i / 1)vh }
+}
+
+@for $i from 0 to 100 {
+ .w-$i { width: calc($i)% }
+}
+
+
+@media screen and (min-width: 768px) {
+ html .hidden-d {
+  display: none !important;
+ }
+ html .absolute-d {
+  position: absolute !important;
+ }
+ html .relative-d {
+  position: relative !important;
+ }
+ html .flex-d {
+  flex: 1;
+ }
+ html .layout.center-d,
+ html .collapse.center-d {
+  align-items: center;
+ }
+ html .layout.end-d {
+  align-items: flex-end;
+ }
+
+ @for $i from 0 to 37 {
+  html .width-d-$i { width: calc($i * var(--blockIncrement)); }
+  html .max-width-d-$i { max-width: calc($i * var(--blockIncrement)); }
+  html .height-d-$i { height: calc($i * var(--blockIncrement)); }
+  html .max-height-d-$i { max-height: calc($i * var(--blockIncrement)); }
+  html .pad-d__t-$i { padding-top: calc($i * var(--blockIncrement)); }
+  html .pad-d__r-$i { padding-right: calc($i * var(--blockIncrement)); }
+  html .pad-d__b-$i { padding-bottom: calc($i * var(--blockIncrement)); }
+  html .pad-d__l-$i { padding-left: calc($i * var(--blockIncrement)); }
+ }
+ @for $i from 0 to 100 by 5 {
+  .width-d-p-$i { width: $i% }
+ }
+}
+@media screen and (max-width: 768px) {
+ html .hidden-m {
+  display: none !important;
+ }
+ html .fit-width-m {
+  width: 100% !important;
+ }
+ html .absolute-m {
+  position: absolute !important;
+ }
+ html .relative-m {
+  position: relative !important;
+ }
+ html .site.m-full {
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ @for $i from 0 to 37 {
+  html .width-m-$i { width: calc($i * var(--blockIncrement)); }
+  html .max-width-m-$i { max-width: calc($i * var(--blockIncrement)); }
+  html .height-m-$i { height: calc($i * var(--blockIncrement)); }
+  html .max-height-m-$i { max-height: calc($i * var(--blockIncrement)); }
+  html .pad-m__t-$i { padding-top: calc($i * var(--blockIncrement)); }
+  html .pad-m__r-$i { padding-right: calc($i * var(--blockIncrement)); }
+  html .pad-m__b-$i { padding-bottom: calc($i * var(--blockIncrement)); }
+  html .pad-m__l-$i { padding-left: calc($i * var(--blockIncrement)); }
+ }
+ @for $i from 0 to 100 by 5 {
+  html .width-m-p-$i { width: $i% }
+ }
+}

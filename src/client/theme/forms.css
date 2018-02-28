@@ -1,0 +1,222 @@
+:root {
+    --gridGap4: 30px;
+    --gridGap5: 10px;
+}
+
+form.submitted {
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+fieldset ~ fieldset {
+    padding: 8px 0 0;
+}
+
+.horizontal.layout > fieldset ~ fieldset {
+    padding-top: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+label {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+}
+
+input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.14;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #c2cee1;
+    margin-top: 8px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+html .presale-form-wrapper .grid.two-col {
+    grid-gap: var(--gridGap4);
+}
+
+.presale-form-wrapper form {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 55px 80px;
+    margin-bottom: 60px;
+}
+
+/* Custom radio */
+.radio,
+.checkbox {
+    cursor: pointer;
+    position: relative;
+}
+
+.radio label {
+    line-height: 50px;
+}
+
+.checkbox span {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px 0 40px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.radio label input[type="radio"],
+.checkbox label input[type="checkbox"] {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+.radio label input[type="radio"] {
+    transition: ease all .3s;
+}
+
+.radio label input[type="radio"] + span:after,
+.checkbox label input[type="checkbox"] + span:after {
+    border: 1px solid #c2cee1;
+    border-radius: 5px;
+    content: '';
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    width: 50px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.checkbox label input[type="checkbox"] + span:after {
+    border-width: 2px;
+    border-radius: 2px;
+    height: 20px;
+    width: 20px;
+}
+
+.checkbox label input[type="checkbox"]:checked + span:after {
+    border-color: var(--primaryColor);
+}
+
+.checkbox label input[type="checkbox"]:checked + span:before {
+    background: url("/static/assets/images/graphics/checked.svg") no-repeat 2px;
+    content: "";
+    position: absolute;
+    left: 1;
+    top: 1;
+    height: 16px;
+    width: 16px;
+}
+
+.radio label input[type="radio"]:checked + span:after,
+.radio label input[type="radio"]:hover + span:after {
+    border: none;
+    background-image: linear-gradient(to right, #ff8492 0%, #ffa570);
+}
+
+.radio label input[type="radio"] + span::before {
+    color: #c2cee1;
+    position: absolute;
+    left: 12px;
+    z-index: 1;
+    top: 0;
+}
+
+.radio label input[type="radio"]:checked + span::before,
+.radio label input[type="radio"]:hover + span::before {
+    color: var(--textPrimaryLight);
+}
+
+.radio.eth label input[type="radio"] + span::before {
+    content: 'ETH';
+}
+
+.radio.btc label input[type="radio"] + span::before {
+    content: 'BTC';
+}
+
+.radio.usd label input[type="radio"] + span::before {
+    content: 'USD';
+}
+
+.grid.xs-three-col .radio {
+    margin: 8px 0;
+    height: 50px
+}
+
+.grid.xs-three-col .radio span {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .presale-form-wrapper form .two-col .two-col {
+        grid-template-columns: 30% 1fr;
+    }
+
+    .presale-form-wrapper form .two-col .three-col {
+        /*grid-gap: var(--gridGap5);*/
+        margin-top: 8px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    html .presale-form-wrapper .grid.two-col > * {
+        margin: 12px 20px;
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presale-form-wrapper form {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    html .presale-form-wrapper .grid.two-col > * {
+        margin: 12px 0;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    html .presale-form-wrapper .grid.two-col > * {
+        margin: 12px 20px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    html .presale-form-wrapper .grid.two-col > * {
+        width: 100%;
+    }
+
+    html .grid.two-col .currency-wrapper .grid.radio-group {
+        width: 125px;
+    }
+
+    html .grid.two-col .currency-wrapper .horizontal .w-40 {
+        width: 112px;
+    }
+
+    html .grid.two-col .currency-wrapper .horizontal .w-40 + .mar__l-4 {
+
+    }
+
+    .checkbox span {
+        padding: 0 20px 0 29px;
+    }
+}

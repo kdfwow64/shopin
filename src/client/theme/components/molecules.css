@@ -1,0 +1,81 @@
+@import "../colors";
+
+.coin-parallax {
+ height: 300px;
+ width: 630px;
+ margin: 0 auto;
+}
+.coin-parallax .flex {
+ position: relative;
+ transform-style: preserve-3d;
+ transform: translate3d(0, 160px, 0);
+ transition: all 0.8s ease-out;
+}
+.coin-parallax .flex:nth-child(2) {
+ transform: translate3d(0, 80px, 0);
+}
+
+.coin-parallax img {
+ position: absolute;
+ width: 120%;
+ left: -10%;
+ display: block;
+}
+
+.coin-parallax .flex:nth-child(2) img {
+ transform: scale3d(1.2, 1.2, 1);
+}
+
+.coin-parallax.entered .flex {
+ transform: translate3d(0, 0, 0);
+}
+
+@media only screen and (max-width: 980px){
+ .coin-parallax {
+  height: 200px;
+  width: 400px;
+ }
+}
+
+@media only screen and (max-width: 767px){
+ .coin-parallax {
+  padding-top: 0;
+  height: 150px;
+  width: 280px;
+ }
+}
+
+
+.donut-chart {
+ margin: 0 auto;
+ display: block;
+}
+
+.donut-chart .slice,
+.donut-chart .chart-border {
+  stroke: #eeeeee;
+  stroke-width: 6;
+}
+
+
+.shpn-funding-chart button {
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 0;
+    margin: 0 12px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+.shpn-funding-chart button.idle {
+    border: 1px solid rgba(68, 68, 68, 0.2);
+    cursor: pointer;
+}
+.shpn-funding-chart button:hover {
+    color: #fff;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+html #google-visualization-errors-all-1 {
+ display: none !important;
+}

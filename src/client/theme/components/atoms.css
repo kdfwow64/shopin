@@ -1,0 +1,23 @@
+@import "../colors";
+
+button {
+    font-family: inherit;
+    outline: none;
+}
+.button-primary {
+    border-radius: 5px;
+    background-color: #008aff;
+    color: #fff;
+    transition: background 0.4s ease-out;
+} 
+.button-primary:hover {
+    background-color: #2d2c92;
+    transition-duration: 0.2s;
+} 
+.button-primary.idle {
+    color: #000;
+    background-color: transparent;
+}
+button.button-primary {
+    border: none;
+}
